@@ -4,64 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>odin-landing-page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="body">
-        <div id="navbar" class="box">
-            <div id="logo" class="navbar-box"><Strong>Header Logo</Strong></div>
-            <ul class="navbar-box">
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
+    <div id="header" class="container bg-dark">
+        <span id="header-logo" class="header-logo-text">Header Logo</span>
+        <ul id="header-ul">
+            <li><a href="" class="secondary-text">header link one</a></li>
+            <li><a href="" class="secondary-text">header link two</a></li>
+            <li><a href="" class="secondary-text">header link three</a></li>
+        </ul>
+    </div>
+    <div id="intro-1" class="bg-dark">
+        <div id="intro-1-left">
+            <p class="hero-main-text">This website is<br>awesome</p>
+            <p id="intro-1-secondary-text" class="secondary-text">This website has some subtext that goes here under
+                the<br>main title. It's a
+                smaller
+                font and the color is lower<br>contrast
+            </p>
+            <button id="intro-1-button" class="button">Sign up</button>
         </div>
-        <div id="main" class="box">
-            <div id="hero">
-                <div id="hero-desc">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the
-                        color is lower contrast</p>
-                    <button>Sign up</button>
-                </div>
-                <div id="hero-image">
-                    <img src="" alt="This is a placeholder for an image">
-                </div>
+        <div id="intro-1-right">
+            <div id="intro-1-image">
+                <span>this is a placehodler for an image</span>
             </div>
-            <div id="information">
-                <div class="information-box">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div class="information-box">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div class="information-box">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div class="information-box">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-            </div>
-
-            <div id="quote">
-                <q>Test</q>
-                <p>-Thor, God of Thunder</p>
-            </div>
-
-            <div id="sign-up">
-                <p>Call to action! It's time!</p>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button>Sign up</button>
-            </div>
-        </div>
-        <div id="footer" class="box">
-            <p>Copyright The Odin Project 2023</p>
         </div>
     </div>
 </body>
